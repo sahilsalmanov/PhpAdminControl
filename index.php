@@ -10,7 +10,8 @@ if ($_POST) {
       $report = $sorgu -> num_rows;
 
       if($report > 0) {
-      $_SESSION["giris"] = "var";
+        setcookie("istifadeci", "$istifadeci", time() * 60 * 60)
+      $_SESSION["giris"] = shai(md5("var"));
       echo "<script> window.location.href = 'home.php'; </script>";
       }
       else {
