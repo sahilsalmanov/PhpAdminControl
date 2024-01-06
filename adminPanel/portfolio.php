@@ -49,7 +49,7 @@ if ($islem == "ekle") {
 
 <table width="100%" border="1">
 
-<tr>
+<tr> 
     <th>S.No</th>
     <th>Basliq</th>
     <th>Resim</th>
